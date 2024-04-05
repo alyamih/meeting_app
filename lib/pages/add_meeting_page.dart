@@ -127,11 +127,6 @@ class _AddMeetingPageState extends State<AddMeetingPage> {
                       fontWeight: FontWeight.w400,
                       fontSize: 16),
                   decoration: InputDecoration(
-                    // hintText: 'Your name',
-                    // hintStyle: TextStyle(
-                    //     fontFamily: 'SF Pro Text',
-                    //     fontSize: 16,
-                    //     color: const Color(0xFF1E2321).withOpacity(0.5)),
                     filled: true,
                     fillColor:
                         Provider.of<ThemeProvider>(context).currentTheme ==
@@ -238,11 +233,6 @@ class _AddMeetingPageState extends State<AddMeetingPage> {
                       fontWeight: FontWeight.w400,
                       fontSize: 16),
                   decoration: InputDecoration(
-                    // hintText: 'Date',
-                    // hintStyle: TextStyle(
-                    //     fontFamily: 'SF Pro Text',
-                    //     fontSize: 16,
-                    //     color: const Color(0xFF1E2321).withOpacity(0.5)),
                     filled: true,
                     fillColor:
                         Provider.of<ThemeProvider>(context).currentTheme ==
